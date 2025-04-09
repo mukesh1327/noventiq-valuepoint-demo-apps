@@ -1,5 +1,5 @@
 # Use official Node.js LTS image
-FROM node:20-alpine
+FROM docker.io/library/node:slim
 
 # Set working directory
 WORKDIR /app
