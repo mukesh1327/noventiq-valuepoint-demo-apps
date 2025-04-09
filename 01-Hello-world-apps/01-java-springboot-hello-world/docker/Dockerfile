@@ -1,5 +1,5 @@
 # Stage 2: Runtime stage using OpenJDK runtime
-FROM registry.access.redhat.com/ubi9/openjdk-17
+FROM registry.access.redhat.com/ubi9/openjdk-21
 
 WORKDIR /app
 

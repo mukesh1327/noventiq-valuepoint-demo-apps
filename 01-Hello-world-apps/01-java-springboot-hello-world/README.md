@@ -18,7 +18,7 @@ APP_TITLE=string
 
 ## Run as container
 
-> podman build -t springboot-hello:v1.0 -f .\Dockerfile .
+> podman build -t springboot-hello:v1.0 -f ./docker/Dockerfile .
 
 > podman run -d -p 8080:8080 --name springboot-hello springboot-hello:v1.0
 
